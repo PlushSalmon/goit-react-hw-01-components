@@ -1,7 +1,7 @@
 import React from 'react';
 
 import FriendListItem from './FriendListItem';
-import style from '../FriendList/FriendList.modul.css';
+// import style from '../FriendList/FriendList.modul.css';
 
 const FriendList = ({friends}) => {
   if (friends.length === 0) return null;

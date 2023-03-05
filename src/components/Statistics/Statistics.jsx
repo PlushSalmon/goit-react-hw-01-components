@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Statistics.modul.css';
+// import style from './Statistics.modul.css';
 
 const Statistics = ({ title, stats }) => {
   return <section className="statistics">
