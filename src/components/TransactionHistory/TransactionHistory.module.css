@@ -1,0 +1,34 @@
+.container {
+  padding: 50px;
+}
+
+.transactionHistory {
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.head {
+    font-size: 45px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 33%;
+}
+
+.headItem {
+  background-color: #02bbd7;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 8rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+.counts:nth-child(odd) {
+background-color: lightgray;
+}
+
+.count {
+text-align: center;
+}

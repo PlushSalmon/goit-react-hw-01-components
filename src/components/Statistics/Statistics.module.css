@@ -1,0 +1,28 @@
+.statistics {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0.5rem;
+  min-width: 40%;
+
+}
+
+.title {
+  text-align: center;
+}
+
+.stats {
+display: flex;
+padding-right: 0;
+padding-left: 0;
+margin-bottom: 0;
+color: aliceblue;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
