@@ -1,28 +1,28 @@
 import React from 'react';
-import style from './Profile.modul.css';
+import style from './Profile.module.css';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div className="profile">
-      <div className="description">
-        <img src={avatar} alt="User avatar" className="avatar" />
+    <div className={style.profile}>
+      <div className={style.description}>
+        <img src={avatar} alt="User avatar" className={style.avatar} />
         <p className="name">{username}</p>
         <p className="tag">{tag}</p>
         <p className="location"> {location}</p>
       </div>
 
-      <ul className="stats">
+      <ul className={style.stats}>
         <li className="stats-item">
-          <span className="label">Followers</span>
-          <span className="quantity"> {stats.followers}</span>
+          <span className={style.label}>Followers</span>
+          <span className={style.quantity}> {stats.followers}</span>
         </li>
         <li className="stats-item">
-          <span className="label">Views</span>
-          <span className="quantity"> {stats.views}</span>
+          <span className={style.label}>Views</span>
+          <span className={style.quantity}> {stats.views}</span>
         </li>
         <li className="stats-item">
-          <span className="label">Likes</span>
-          <span className="quantity"> {stats.likes}</span>
+          <span className={style.label}>Likes</span>
+          <span className={style.quantity}> {stats.likes}</span>
         </li>
       </ul>
     </div>
